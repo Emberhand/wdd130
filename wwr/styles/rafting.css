@@ -37,19 +37,17 @@ p {
 }
 
 .hero {
-    display: inline-block;
     position: relative;
-    background-color: #F79824;
+}
+
+.hero article, .hero h1 {
+    position: absolute;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-}
-
-.hero h1, .hero article {
-    position: absolute;
 }
 
 .hero h1 {
