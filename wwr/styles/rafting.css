@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ojuju:wght@200..800&display=swap');
+
+:root {
+    --primary-color: #003559;
+    --secondary-color: #B9D6F2;
+    --accent1-color: #FDCA40;
+    --accent2-color: #F79824;
+
+    --heading-font: 'Madimi One', serif;
+    --paragraph-font: "Ojuju", sans-serif; font-weight: 500; font-style: normal;
+
+    --nav-background-color: #003559;
+    --nav-link-color: #FDCA40;
+    --nav-hover-link-color: #F79824;
+    --nav-hover-background-color: #B9D6F2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color)
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.sociallinks a:link {
+    text-decoration: none;
+}
+
+* {
+    max-width: 1000px;
+}
+
+.hero {
+    display: inline-block;
+    position: relative;
+    background-color: #F79824;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1, .hero article {
+    position: relative;
+}
+
+.hero h1 {
+    background-color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero article {
+    background-color: var(--secondary-color);
+}
+
+.hero article img {
+    float: right;
+    display: block;
+    width: 200px;
+    height: auto;
+}
