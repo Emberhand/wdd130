@@ -54,11 +54,16 @@ p {
     background-color: var(--primary-color);
     width: 100%;
     text-align: center;
-    z-index: 1;
+    top: 10%;
 }
 
 .hero article {
     background-color: var(--secondary-color);
+    top: 40%;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .hero article img {
@@ -66,4 +71,4 @@ p {
     display: block;
     width: 200px;
     height: auto;
-}
+}   
