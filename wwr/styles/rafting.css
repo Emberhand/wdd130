@@ -16,24 +16,72 @@
     --nav-hover-background-color: #B9D6F2;
 }
 
+* {
+    max-width: 1000px;
+    align-self: center;
+}
+
+
+body {
+    background-color: var(--primary-color);
+    vertical-align: middle;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 16% 1fr;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+nav {
+    grid-column-start: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: larger;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent1-color)
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     max-width: 960px;
     padding: 20px;
 }
 
-.sociallinks a:link {
-    text-decoration: none;
+figcaption {
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
 }
 
-* {
-    max-width: 1000px;
+footer nav {
+    display: flex;
+    justify-content: right;
+}
+
+footer nav a {
+    padding: 5px;
+}
+
+/* Class Items */
+
+.sociallinks a:link {
+    text-decoration: none;
 }
 
 .hero {
@@ -42,6 +90,10 @@ p {
 
 .hero article, .hero h1 {
     position: absolute;
+}
+
+.hero p {
+    color: var(--primary-color);
 }
 
 .hero img {
@@ -68,7 +120,14 @@ p {
 
 .hero article img {
     float: right;
+    padding-top: 27px;
+    padding-right: 10px;
     display: block;
     width: 200px;
     height: auto;
 }   
+
+.adventure div {
+    display: flex;
+    justify-content: center;
+}
