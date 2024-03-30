@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+  </head>
+  <body>
+    <header>
+        <h1>WDD 130 | Hayden Billings | Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Writing Questions</legend>
+                <div class="question">
+                    <label>What is the correct way to start off an HTML form called? <input type="text" id="q1" name="q1"></label>
+                </div>
+                <div class="question">
+                    <label>Write out an example of how you would design an element to have a wide, colored margin and be centered on the page using CSS<textarea id="q2" name="q2" rows="4" placeholder="CSS script goes here"></textarea></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Other Questions</legend>
+                <div class="question">
+                    <label>Which scripting language is used to enhance the visual aspect of a website? <select id="q3" name="q3">
+                        <option value="css">CSS</option>
+                        <option value="html">HTML</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="french">French</option>
+                    </select></label>
+                </div>
+                <div class="question">
+                    <label>If I have an element labeled with the attribute "2fr" and the other two elements in its division are labeled "1fr", what percentage of the screen does my first element take? <input id="q4" name="q4" type="number"></label>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 | Quiz | Hayden Billings</p>
+    </footer>
+  </body>
+</html>
