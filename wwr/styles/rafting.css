@@ -78,6 +78,13 @@ footer nav a {
     padding: 5px;
 }
 
+footer a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: smaller;
+}
+
 /* Class Items */
 
 .sociallinks a:link {
