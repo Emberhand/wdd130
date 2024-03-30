@@ -111,11 +111,12 @@ footer nav a {
 
 .hero article {
     background-color: var(--secondary-color);
-    top: 40%;
+    top: 30%;
     width: 80%;
     left: 0;
     right: 0;
     margin: 0 auto;
+    border-radius: .5rem;
 }
 
 .hero article img {
@@ -127,7 +128,22 @@ footer nav a {
     height: auto;
 }   
 
+.hero form {
+    color: var(--primary-color);
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+    display: grid;
+    font-family: var(--paragraph-font)
+    
+}
+
 .adventure div {
     display: flex;
     justify-content: center;
+}
+
+.contact iframe {
+    padding-right: 1rem;
+    float: right;
 }
