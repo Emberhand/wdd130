@@ -85,7 +85,96 @@ footer a {
     font-size: smaller;
 }
 
+th {
+    font-family: var(--heading-font);
+    color: var(--accent1-color)
+}
+
+td {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color)
+}
+
+table {
+    width: 100%;
+}
+
 /* Class Items */
+
+.bubble article h1 {
+    background: rgba(0,53,89,0.5);
+    position: relative;
+}
+
+.bubble a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: smaller;
+    background-color: #003559;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.bubble {
+    position: relative;
+}
+
+.bubble article, .bubble h1 {
+    position: absolute;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.bubble p {
+    color: var(--primary-color);
+}
+
+.bubble img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bubble h1 {
+    background-color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    top: 10%;
+}
+
+.bubble article {
+    background-color: var(--secondary-color);
+    top: 30%;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: .5rem;
+}
+
+.bubble article img {
+    float: right;
+    padding-top: 27px;
+    padding-right: 10px;
+    display: block;
+    width: 200px;
+    height: auto;
+}   
+
+.bubble form {
+    color: var(--primary-color);
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+    display: grid;
+    font-family: var(--paragraph-font)
+    
+}
 
 .sociallinks a:link {
     text-decoration: none;
@@ -154,3 +243,50 @@ footer a {
     padding-right: 1rem;
     float: right;
 }
+
+.trips h1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.left article {
+    background-color: var(--secondary-color);
+    top: 30%;
+    left: 0;
+    right: 0;
+    border-radius: .5rem;
+    padding: 2rem;
+    font-family: var(--paragraph-font);
+}
+
+.right article {
+    background-color: var(--secondary-color);
+    top: 30%;
+    left: 0;
+    right: 0;
+    border-radius: .5rem;
+    padding: 2rem;
+    font-family: var(--paragraph-font);
+}
+
+.right img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 1rem;
+    display: block;
+    width: 200px;
+    height: auto;
+}   
+
+.left img {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 1rem;
+    display: block;
+    width: 200px;
+    height: auto;
+}   
